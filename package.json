@@ -1,6 +1,6 @@
 {
   "name": "jsmp-infra-task",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JS task for CDP",
   "main": "lib/index.js",
   "scripts": {
