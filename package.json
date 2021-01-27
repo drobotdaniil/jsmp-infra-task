@@ -1,0 +1,29 @@
+{
+  "name": "jsmp-infra-task",
+  "version": "1.0.0",
+  "description": "JS task for CDP",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "clean": "rm -rf lib",
+    "test": "babel-node test/mult.spec.js && babel-node test/replace.spec.js",
+    "prepare": "npm run clean && npm run compile && npm run test"
+  },
+  "keywords": [
+    "js",
+    "npm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drobotdaniil/jsmp-infra-task.git"
+  },
+  "author": "Daniil Drobot <Daniil_Drobot@epam.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
