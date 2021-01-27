@@ -1,2 +1,7 @@
-export { mult } from './mult';
-export { replaceSpaces } from './replace';
+import mult from './mult';
+import replaceSpaces from './replace';
+
+export default {
+  mult,
+  replaceSpaces,
+};
