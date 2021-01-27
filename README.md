@@ -1,6 +1,6 @@
 # JSMP-INFRA-TASK
 
-JS package for mult elems in array and replace spaces in strings.
+JS package for mult elems(numbers) in array and replace spaces in strings.
 
 ## Load
 
